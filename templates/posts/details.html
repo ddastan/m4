@@ -1,0 +1,16 @@
+{% extends 'navbar.html'%}
+
+{% block content%}
+
+<h1>Post Details:</h1>
+
+<h2>Tittle: {{ post.tittle }}</h2>
+<p>Content: {{ post.content }}</p>
+<p>Rate: {{ post.rate }}</p>
+<p>Created: {{post.created_at}}</p>
+<p>Updated: {{post.updated_at}}</p>
+
+{% endblock %}
+
+
+
